@@ -1,0 +1,13 @@
+import React from 'react'
+
+function About() {
+  return (
+    <div className='w-1/2 m-auto mt-10'>
+       <h1 className='text-red-600 text-5xl mb-2'>About</h1>
+       <p className='mb-2 text-zinc-500'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, incidunt temporibus! Consequuntur laboriosam animi sed consequatur nam quod ipsum rerum quas dolores vel corporis tempore, odeatae, alias repellendus impedit molestiae eaque!</p>
+       <button className='p-3 bg-zinc-400 rounded-md text-xl text-white'>Explore More</button>
+   </div>
+  )
+}
+
+export default About
